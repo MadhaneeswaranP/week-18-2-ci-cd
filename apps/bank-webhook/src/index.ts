@@ -17,7 +17,7 @@ app.post("/hdfcWebhook", async (req, res) => {
         amount: req.body.amount
     };
 
-    console.log('TESTING')
+    console.log('TESTING CI')
 
     try {
         await db.$transaction([
